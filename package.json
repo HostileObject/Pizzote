@@ -1,0 +1,29 @@
+{
+  "name": "pizzote-back",
+  "version": "1.0.0",
+  "description": "Pizza evaluator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HostileObject/Pizzote.git"
+  },
+  "keywords": [
+    "Pizza"
+  ],
+  "author": "Hostile Object",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HostileObject/Pizzote/issues"
+  },
+  "homepage": "https://github.com/HostileObject/Pizzote#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mariadb": "^2.5.2",
+    "nodemon": "^2.0.6",
+    "sequelize": "^6.3.5"
+  }
+}
