@@ -1,0 +1,20 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Roboto';
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #252728;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+        monospace;
+}
+
+.MuiContainer-root {
+    padding: 0 !important;
+}
+
+.makeStyles-menuButton-7 {
+    margin-right: 3px !important;
+}

@@ -1,5 +1,5 @@
 {
-  "name": "pizzote-back",
+  "name": "pizzote-api",
   "version": "1.0.0",
   "description": "Pizza evaluator",
   "main": "index.js",
