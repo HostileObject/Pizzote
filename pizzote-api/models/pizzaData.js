@@ -1,39 +1,40 @@
 const { Sequelize, DataTypes } = require("sequelize");
-const sequelize = new Sequelize("pizzaTime", "root", "1243", {
+const sequelize = new Sequelize("pizzote_Entries", "cuoco", "p1zza", {
   host: "localhost",
   dialect: "mariadb",
 });
 
 const pizzaData = sequelize.define(
-  "pizzaData",
+  "pizzaTableEntries",
   {
     id: {
       type: DataTypes.INTEGER,
+      unsigned: true,
       autoIncrement: true,
       primaryKey: true,
     },
-    RestaurantName: {
+    restaurantName: {
       type: DataTypes.STRING,
     },
-    Date: {
+    entryDate: {
       type: DataTypes.DATE,
     },
-    WaitTime: {
+    waitTime: {
       type: DataTypes.INTEGER,
     },
-    Moment: {
+    moment: {
       type: DataTypes.STRING,
     },
-    Type: {
+    type: {
       type: DataTypes.STRING,
     },
-    Price: {
+    price: {
       type: DataTypes.STRING,
     },
-    Rating: {
+    rating: {
       type: DataTypes.INTEGER,
     },
-    Comments: {
+    comments: {
       type: DataTypes.TEXT,
     },
   },
