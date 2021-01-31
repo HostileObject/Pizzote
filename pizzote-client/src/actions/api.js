@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const baseUrl = 'http://192.168.1.144:4000/';
+const baseUrl = 'http://178.79.144.117:4000/';
 
 const pizzaApi = {
     pizzaData(url = baseUrl + 'pizzaData/') {
