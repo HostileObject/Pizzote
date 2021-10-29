@@ -77,6 +77,7 @@ const useStyles = makeStyles({
 	},
 	addButton: {
 		margin: "1%",
+		padding: "0 2%",
 	},
 	toolbar: {
 		flex: "0 0 80%",

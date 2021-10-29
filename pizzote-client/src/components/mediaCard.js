@@ -72,7 +72,7 @@ const MediaCard = (props) => {
                 >
                   <b>Price: </b>
                   {props.pizzaDataList[i].price} <b> Time Waited: </b>
-                  {props.pizzaDataList[i].waitTime.slice(3)}
+                  {props.pizzaDataList[i].waitTime}
                 </WhiteTextTypography>
               </CardContent>
             </CardActionArea>
