@@ -39,10 +39,10 @@ export default function Landing() {
                     window.innerWidth < 900
                         ? '55vh'
                         : window.innerWidth < 1350
-                        ? '60vh'
-                        : window.innerWidth < 1650
-                        ? '75vh'
-                        : '95vh',
+                            ? '60vh'
+                            : window.innerWidth < 1650
+                                ? '75vh'
+                                : '95vh',
             }}
         >
             <div
@@ -88,10 +88,10 @@ export default function Landing() {
                                     window.innerWidth < 450
                                         ? '1.75rem'
                                         : window.innerWidth < 900
-                                        ? '2rem'
-                                        : window.innerWidth < 1350
-                                        ? '4rem'
-                                        : '6rem',
+                                            ? '2rem'
+                                            : window.innerWidth < 1350
+                                                ? '4rem'
+                                                : '6rem',
                             }}
                         >
                             In Search of the Best Pizza
@@ -103,8 +103,8 @@ export default function Landing() {
                                     window.innerWidth < 900
                                         ? '75%'
                                         : window.innerWidth < 1650
-                                        ? '60%'
-                                        : '40%',
+                                            ? '60%'
+                                            : '40%',
                                 margin: '0.5%',
                                 color: '#e8e6e4',
                                 fontWeight: 'lighter',
@@ -116,8 +116,7 @@ export default function Landing() {
                         >
                             This website is a collection of different pizzas and
                             their ratings, with the goal of, one day, find the
-                            perfect pizza... Take a look at our data and our
-                            schemes!
+                            perfect pizza... Take a look at the data!
                         </Typography>
                         <Button
                             style={{

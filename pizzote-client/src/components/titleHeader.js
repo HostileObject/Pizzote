@@ -6,6 +6,8 @@ const useStyles = makeStyles((theme) => ({
     container: {
         marginTop: '3%',
         borderRadius: '10px',
+        marginLeft: '2%',
+        marginRight: '2%',
     },
     title: {
         flexGrow: 1,

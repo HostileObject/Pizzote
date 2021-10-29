@@ -9,31 +9,32 @@ const pizzaData = sequelize.define(
   {
     id: {
       type: DataTypes.INTEGER,
+      unsigned: true,
       autoIncrement: true,
       primaryKey: true,
     },
-    RestaurantName: {
+    restaurantName: {
       type: DataTypes.STRING,
     },
     Date: {
       type: DataTypes.DATE,
     },
-    WaitTime: {
+    waitTime: {
       type: DataTypes.INTEGER,
     },
-    Moment: {
+    moment: {
       type: DataTypes.STRING,
     },
-    Type: {
+    type: {
       type: DataTypes.STRING,
     },
-    Price: {
+    price: {
       type: DataTypes.STRING,
     },
-    Rating: {
+    rating: {
       type: DataTypes.INTEGER,
     },
-    Comments: {
+    comments: {
       type: DataTypes.TEXT,
     },
   },
