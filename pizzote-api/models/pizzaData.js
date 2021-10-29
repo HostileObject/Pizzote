@@ -1,11 +1,11 @@
 const { Sequelize, DataTypes } = require("sequelize");
-const sequelize = new Sequelize("pizzote_Entries", "cuoco", "p1zza", {
+const sequelize = new Sequelize("pizzaTime", "root", "1243", {
   host: "localhost",
   dialect: "mariadb",
 });
 
 const pizzaData = sequelize.define(
-  "pizzaTableEntries",
+  "pizzaData",
   {
     id: {
       type: DataTypes.INTEGER,
@@ -16,7 +16,7 @@ const pizzaData = sequelize.define(
     restaurantName: {
       type: DataTypes.STRING,
     },
-    entryDate: {
+    Date: {
       type: DataTypes.DATE,
     },
     waitTime: {
