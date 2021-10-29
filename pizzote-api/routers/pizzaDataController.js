@@ -11,14 +11,14 @@ router.get('/', (req, res) => {
 
 router.post('/', (req, res) => {
     var newPizza = {
-        RestaurantName: req.body.RestaurantName,
-        Date: req.body.Date,
-        WaitTime: req.body.WaitTime,
-        Moment: req.body.Moment,
-        Type: req.body.Type,
-        Price: req.body.Price,
-        Rating: req.body.Rating,
-        Comments: req.body.Comments,
+        restaurantName: req.body.restaurantName,
+        entryDate: req.body.entryDate,
+        waitTime: req.body.waitTime,
+        moment: req.body.moment,
+        type: req.body.type,
+        price: req.body.price,
+        rating: req.body.rating,
+        comments: req.body.comments,
     };
 
     pizzaData.create(newPizza);
@@ -29,14 +29,14 @@ router.post('/', (req, res) => {
 
 router.put('/:id', (req, res) => {
     var updatedPizza = {
-        RestaurantName: req.body.RestaurantName,
-        Date: req.body.Date,
-        WaitTime: req.body.WaitTime,
-        Moment: req.body.Moment,
-        Type: req.body.Type,
-        Price: req.body.Price,
-        Rating: req.body.Rating,
-        Comments: req.body.Comments,
+        restaurantName: req.body.restaurantName,
+        entryDate: req.body.entryDate,
+        waitTime: req.body.waitTime,
+        moment: req.body.moment,
+        type: req.body.type,
+        price: req.body.price,
+        rating: req.body.rating,
+        comments: req.body.comments,
     };
 
     pizzaData.update(updatedPizza, {
