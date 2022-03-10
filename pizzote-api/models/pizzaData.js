@@ -20,7 +20,7 @@ const pizzaData = sequelize.define(
       type: DataTypes.DATE,
     },
     waitTime: {
-      type: DataTypes.INTEGER,
+      type: DataTypes.STRING,
     },
     moment: {
       type: DataTypes.STRING,
